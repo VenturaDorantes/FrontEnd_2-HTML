@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Pasteleria Dosa </title>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>  
+    </head>
+    <body>
+
+        <!---------- Barra de navegación ---------->
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="img/logo.png" href="#inicio"></div>
+                <ul class="menu">
+                    <li><a style="text-decoration:none" href="index.html"> Inicio </a></li>
+                    <li><a style="text-decoration:none" href="index.html#productos"> Productos </a></li>
+                    <li><a style="text-decoration:none" href="pedido.html"> Hacer pedido </a></li>
+                    <li><a style="text-decoration:none" href="mercancia.html"> Mercancia </a></li>
+                    <div class="cancelar-btn">
+                        <i class="fas fa-time"></i>
+                    </div>
+                </ul>
+                <div class="iconos">
+                    <a href="https://github.com/VenturaDorantes/FrontEnd_2-HTML.git"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        
+        <section class="formulario">
+            <div class="formulario-row">
+                <div class="inf-titulo">
+                    <span> Realiza tu pedido </span>
+                </div>
+                <div class="box">
+                    <div class="formulario-input">
+                        <p> Nombre* </p>
+                        <input class="form-input" type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Teléfono* </p>
+                        <input class="form-input" type="text" placeholder="Teléfono" required>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Correo Electrónico* </p>
+                        <input class="form-input" type="text" placeholder="Correo Electrónico" required>
+                    </div>
+                    <div class="formulario-input"> 
+                        <p> Dirección* </p>
+                        <input class="form-input" type="text" placeholder="Dirección" required>
+                    </div> 
+                    <div class="formulario-input">
+                        <p> Pastel ya hecho* </p>
+                        <i class="fas fa-angle-down iconoInput"></i>
+                        <select name="pastel" id="" class="form-input">
+                            <option value="0"> Ninguno </option>
+                            <option value="1"> Pastel Chocolate con mermelada </option>
+                            <option value="2"> Pastel Chocolate con fresas </option>
+                            <option value="3"> Pastel Vainilla con frutas </option>
+                            <option value="4"> Pastel Queso con fresas </option>
+                            <option value="5"> Pastel Queso con Arandanos </option>
+                            <option value="6"> Pastel Gelatina sabor fresa </option>
+                        </select>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Personalizado* </p>
+                        <i class="fas fa-angle-down iconoInput2"></i>
+                        <select name="pastel" id="" class="form-input">
+                            <option value="0"> No </option>
+                            <option value="1"> Si </option>
+                        </select>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Fruta </p>
+                        <i class="fas fa-angle-down iconoInput"></i>
+                        <select name="pastel" id="" class="form-input">
+                            <option value="0"> Ninguna </option>
+                            <option value="1"> Fresas </option>
+                            <option value="2"> Frambuesas </option>
+                            <option value="3"> Mango </option>
+                            <option value="4"> Kiwi </option>
+                        </select>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Sabor de pastel </p>
+                        <i class="fas fa-angle-down iconoInput2"></i>
+                        <select name="pastel" id="" class="form-input">
+                            <option value="0"> Ninguno </option>
+                            <option value="1"> Chocolate </option>
+                            <option value="2"> Vainilla  </option>
+                            <option value="3"> Cafe </option>
+                        </select>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Velas </p>
+                        <i class="fas fa-angle-down iconoInput"></i>
+                        <select name="pastel" id="" class="form-input">
+                            <option value="0"> Ninguno </option>
+                            <option value="1"> Normales </option>
+                            <option value="2"> Numeros  </option>
+                            <option value="3"> Personajes </option>
+                        </select>
+                    </div>
+                    <div class="formulario-input">
+                        <p> Glaseado </p>
+                        <i class="fas fa-angle-down iconoInput2"></i>
+                        <select name="pastel" id="" class="form-input">
+                            <option value="0"> Ninguno </option>
+                            <option value="1"> Chantilly </option>
+                            <option value="2"> Mantequilla </option>
+                            <option value="3"> Leche Hervida </option>
+                            <option value="4"> Merengue </option>
+                        </select>
+                    </div>
+                    <div class="formulario-input2">
+                        <p style="font-weight: bold ;"> Mensaje* </p>
+                        <textarea class="" placeholder="" style="width: 100% !important ;"></textarea>
+                    </div>
+                    <div class="boton">
+                        <a href="#informacion"> Enviar </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- Pie de Pagina ---------->
+
+        <footer class="footer" id="contact">
+            <div class="box-container">
+                <div class="mainBox">
+                    <div class="content">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3> Paginas </h3>
+                    <a href="index.html"> <i class="fas fa-arrow-right"></i> Inicio </a>
+                    <a href="index.html#productos"> <i class="fas fa-arrow-right"></i> Productos </a>
+                    <a href="pedido.html"> <i class="fas fa-arrow-right"></i> Hacer pedido</a>
+                    <a href="mercancia.html"> <i class="fas fa-arrow-right"></i> Mercancia </a>
+                </div>
+                <div class="box">
+                    <h3> Contacto </h3>
+                    <a href="#"><i class="fas fa-location-arrow"></i> Ciudad de México </a>
+                    <a href="#"><i class="fas fa-clock"></i> 10:00 AM - 8:00 PM </a>
+                    <a href="#"> <i class="fas fa-phone"></i> 5517833458 </a>
+                    <a href="#"> <i class="fas fa-envelope"></i> ventusDS@hotmail.com </a>
+                </div>
+            </div>
+            <div class="share">
+                <a href="https://github.com/VenturaDorantes/FrontEnd_2-HTML.git" class="fab fa-github"></a>
+            </div>
+        </footer>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

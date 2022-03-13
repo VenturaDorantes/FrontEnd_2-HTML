@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Pasteleria Dosa </title>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>  
+    </head>
+    <body>
+        <!---------- Barra de navegación ---------->
+        <nav>
+            <div class="navbar">
+                <div class="logo"><img src="img/logo.png" href="#inicio"></div>
+                <ul class="menu">
+                    <li><a style="text-decoration:none" href="index.html"> Inicio </a></li>
+                    <li><a style="text-decoration:none" href="#productos"> Productos </a></li>
+                    <li><a style="text-decoration:none" href="pedido.html"> Hacer pedido </a></li>
+                    <li><a style="text-decoration:none" href="mercancia.html"> Mercancia </a></li>
+                    <div class="cancelar-btn">
+                        <i class="fas fa-time"></i>
+                    </div>
+                </ul>
+                <div class="iconos">
+                    <a href="https://github.com/VenturaDorantes/FrontEnd_2-HTML.git"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!---------- Pantalla de Inicio ---------->
+        <section class="inicio" id="inicio">
+            <div class="inicio-contenido">
+                <div class="texto">
+                    <div class="texto-uno">Bienvenido </p></div>
+                    <div class="texto-uno">Ideal para tus eventos especiales</div>
+                </div>
+                <div class="boton">
+                    <a href="#informacion"> Ver productos </a>
+                </div>
+            </div>
+        </section>
+
+        <!---------- Apartado de información  ---------->
+        <section class="informacion" id="informacion">
+            <div class="inf-contenido">
+                <div class="inf-titulo">
+                    <span> Sobre nosotros </span>
+                </div>
+                <div class="inf-detalles">
+                    <div class="inf-izquierda">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="inf-derecha">
+                        <div class="inf-texto">
+                            <p> Somos una pasteleria Mexicana que se dedica a mandar pedidos
+                                en toda la Ciudad de Mexico (CDMX), realizamos pedidos de pasteles
+                                personalizados, en la cual los realizamos de buena calidad, para
+                                que nuestros clientes tengan una experiencia agradable.
+                            </p>
+                            <ul>
+                                <li><i class="fas fa-location-arrow"></i> Ciudad de México </li>
+                                <li><i class="fas fa-phone"></i> 5517833458 </li>
+                                <li><i class="fas fa-clock"></i> 10:00 AM - 8:00 PM </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- Apartado de productos  ---------->
+
+        <section class="productos" id="productos">
+            <div class="inf-titulo">
+                <span> Nuestros Productos </span>
+            </div>
+            <div class="swiper productos-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/pastel1.jpeg" alt="">
+                        </div>
+                        <div class="productos-contenido">
+                            <h3> Pastel Chocolate con mermelada </h3>
+                            <p> $300 </p>
+                        </div>
+                        <div class="btn-ordenar">
+                            <a href="#informacion"> Ordenar </a>
+                        </div>         
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/pastel2.jpeg" alt="">
+                        </div>
+                        <div class="productos-contenido">
+                            <h3> Pastel Chocolate con fresas</h3>
+                            <p> $320 </p>
+                        </div>
+                        <div class="btn-ordenar">
+                            <a href="#informacion"> Ordenar </a>
+                        </div>         
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/pastel3.webp" alt="">
+                        </div>
+                        <div class="productos-contenido">
+                            <h3> Pastel Vainilla con frutas </h3>
+                            <p> $290</p>
+                        </div>
+                        <div class="btn-ordenar">
+                            <a href="#informacion"> Ordenar </a>
+                        </div>         
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/pastel4.jpeg" alt="">
+                        </div>
+                        <div class="productos-contenido">
+                            <h3> Pastel Queso con fresas </h3>
+                            <p> $320</p>
+                        </div>
+                        <div class="btn-ordenar">
+                            <a href="#informacion"> Ordenar </a>
+                        </div>         
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/pastel5.webp" alt="">
+                        </div>
+                        <div class="productos-contenido">
+                            <h3> Pastel Queso con Arandanos </h3>
+                            <p> $350 </p>
+                        </div>
+                        <div class="btn-ordenar">
+                            <a href="#informacion"> Ordenar </a>
+                        </div>         
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/pastel6.jpeg" alt="">
+                        </div>
+                        <div class="productos-contenido">
+                            <h3> Pastel Gelatina sabor fresa </h3>
+                            <p> $280 </p>
+                        </div>
+                        <div class="btn-ordenar">
+                            <a href="#informacion"> Ordenar </a>
+                        </div>         
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="adornos" id="adornos">
+            <div class="inf-titulo">
+                <span> Adornos que puedes agregar </span>
+            </div>
+            <div class="swiper adornos-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/adorno1.jpeg" alt="">
+                        </div>
+                        <div class="adornos-contenido">
+                            <h3> Frutas </h3>
+                            <ul>
+                                <li> Fresas </li>
+                                <li> Frambuesas </li>
+                                <li> Mango </li>
+                                <li> Kiwi </li>
+                                <br>
+                                <li style="font-weight:bold;"> $70 </li>
+                            </ul>
+                            
+                        </div>        
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/adorno2.jpeg" alt="">
+                        </div>
+                        <div class="adornos-contenido">
+                            <h3> Sabor de pastel </h3>
+                            <ul>
+                                <li> Chocolate </li>
+                                <li> Vainilla </li>
+                                <li> Cafe </li>
+                                <li> Crema </li>
+                                <br>
+                                <li style="font-weight:bold;"> $120 </li>
+                            </ul>
+                        </div>      
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/adorno3.jpeg" alt="">
+                        </div>
+                        <div class="adornos-contenido">
+                            <h3> Velas </h3>
+                            <ul>
+                                <li> Normales </li>
+                                <li> Numeros </li>
+                                <li> Personajes </li>
+                                <br>
+                                <li style="font-weight:bold;"> $50 </li>
+                            </ul>
+                        </div>      
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/adorno4.jpeg" alt="">
+                        </div>
+                        <div class="adornos-contenido">
+                            <h3> Glaseado </h3>
+                            <ul>
+                                <li> Chantilly </li>
+                                <li> Mantequilla </li>
+                                <li> Leche Hervida </li>
+                                <li> Merengue </li>
+                                <br>
+                                <li style="font-weight:bold;"> $50 </li>
+                            </ul>
+                        </div>       
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="especiales" id="especiales">
+            <div class="inf-titulo">
+                <span> Pasteles especiales </span>
+            </div>
+            <div class="swiper especiales-row">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/especial.jpeg" alt="">
+                        </div>
+                        <div class="contenido">
+                            <h3> Pastel especial para Boda sabor chocolate  </h3>
+                            <br>
+                            <p> Pastel sabor chocolate con una decoracion especial, ideal para presentarlo y
+                                ofrecerlos en tu boda. </p>
+                                <br>
+                                <p> $900 </p>
+                            <div class="btn-ordenar">
+                                <a href="#informacion"> Ordenar </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="img">
+                            <img src="img/especial2.jpeg" alt="">
+                        </div>
+                        <div class="contenido">
+                            <h3> Pastel especial para Boda sabor Vainilla </h3>
+                            <p> Pastel sabor Vainilla con una decoracion especial, ideal para presentarlo y
+                                ofrecerlos en tu boda. </p>
+                                <br>
+                                <p> $850 </p>
+                            <div class="btn-ordenar">
+                                <a href="#informacion"> Ordenar </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!---------- Pie de Pagina ---------->
+
+        <footer class="footer" id="contact">
+            <div class="box-container">
+                <div class="mainBox">
+                    <div class="content">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3> Paginas </h3>
+                    <a href="index.html"> <i class="fas fa-arrow-right"></i> Inicio </a>
+                    <a href="#productos"> <i class="fas fa-arrow-right"></i> Productos </a>
+                    <a href="pedido.html"> <i class="fas fa-arrow-right"></i> Hacer pedido</a>
+                    <a href="mercancia.html"> <i class="fas fa-arrow-right"></i> Mercancia </a>
+                </div>
+                <div class="box">
+                    <h3> Contacto </h3>
+                    <a href="#"><i class="fas fa-location-arrow"></i> Ciudad de México </a>
+                    <a href="#"><i class="fas fa-clock"></i> 10:00 AM - 8:00 PM </a>
+                    <a href="#"> <i class="fas fa-phone"></i> 5517833458 </a>
+                    <a href="#"> <i class="fas fa-envelope"></i> ventusDS@hotmail.com </a>
+                </div>
+            </div>
+            <div class="share">
+                <a href="https://github.com/VenturaDorantes/FrontEnd_2-HTML.git" class="fab fa-github"></a>
+            </div>
+        </footer>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
